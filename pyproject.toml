@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "skypro-test"
+version = "0.1.0"
+description = ""
+authors = ["samsegomof <wemagonof91@gmail.com>"]
+readme = "README.md"
+packages = [{include = "skypro_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
